@@ -1,0 +1,68 @@
+:root {
+    --primary-text-color: #999999;
+    --secondary-text-color: #ffffff;
+    --primary-title-color: #ffffff;
+    --secondary-title-color: #323232;
+    --accent-color: #4985ff;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.conteiner {
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*    header */
+
+.header {
+    background-color: rgb(119, 115, 115);
+}
+.menu-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-link {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: inline-block;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+
+    color: var(--secondary-text-color);
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 40px;
+}
