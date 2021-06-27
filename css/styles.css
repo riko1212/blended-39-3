@@ -192,3 +192,55 @@ img {
 .mobile-btn:focus {
   color: var(--accent-color);
 }
+
+/* standarts */
+
+.standarts {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-color: #f6f6f8;
+}
+
+.standarts-title {
+  color: #323232;
+  margin-bottom: 40px;
+}
+
+.standarts-text {
+  margin-bottom: 30px;
+}
+
+.standarts-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  /* identical to box height */
+  color: var(--accent-color);
+}
+
+.standarts-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid#E0E0E0;
+  padding-bottom: 90px;
+  margin-bottom: 70px;
+}
+
+.standarts-content-left {
+  max-width: 489px;
+}
+
+.standarts-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.standarts-item-digit {
+  display: block;
+
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 1.47;
+  color: #000000;
+}
